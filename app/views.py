@@ -46,8 +46,8 @@ def login():
 
             # Get the username and password values from the form.
             if user is not None and check_password_hash(user.password, password):
-                user = UserProfile.query.filter_by(username=username).first()
-                id = load_user(1)
+                #user = UserProfile.query.filter_by(username=username).first()
+                #id = load_user(1)
 
                
             # using your model, query database for a user based on the username
